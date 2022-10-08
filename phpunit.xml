@@ -6,6 +6,8 @@
         <testsuite name="config">
             <file>tests/Config/DatabaseTest.php</file>
         </testsuite>
-
+        <testsuite name="app">
+            <directory>tests/App</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

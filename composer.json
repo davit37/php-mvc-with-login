@@ -26,6 +26,7 @@
     },
     "scripts": {
         "test": "phpunit --configuration phpunit.xml",
-        "test:config": "phpunit --configuration phpunit.xml --testsuite config"
+        "test:config": "phpunit --configuration phpunit.xml --testsuite config",
+        "test:app": "phpunit --configuration phpunit.xml --testsuite app"
     }
 }
