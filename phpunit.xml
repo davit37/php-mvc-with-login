@@ -1,0 +1,11 @@
+<phpunit colors="true" stopOnError="false">
+    <testsuites>
+        <testsuite name="all">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="config">
+            <file>tests/Config/DatabaseTest.php</file>
+        </testsuite>
+
+    </testsuites>
+</phpunit>
